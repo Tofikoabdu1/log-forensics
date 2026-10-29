@@ -1,0 +1,17 @@
+2024-03-15T07:22:11+03:00 webserver01 sshd[12101]: Invalid user admin from 192.0.2.10 port 55001 ssh2
+2024-03-15T07:22:12+03:00 webserver01 sshd[12102]: Failed password for invalid user admin from 192.0.2.10 port 55001 ssh2
+2024-03-15T07:22:18+03:00 webserver01 sshd[12103]: Invalid user deploy from 192.0.2.10 port 55002 ssh2
+2024-03-15T07:22:19+03:00 webserver01 sshd[12104]: Failed password for invalid user deploy from 192.0.2.10 port 55002 ssh2
+2024-03-15T06:11:44+03:00 webserver01 sshd[11801]: Invalid user admin from 192.0.2.11 port 56001 ssh2
+2024-03-15T06:11:45+03:00 webserver01 sshd[11802]: Failed password for invalid user admin from 192.0.2.11 port 56001 ssh2
+2024-03-15T06:11:51+03:00 webserver01 sshd[11803]: Invalid user root from 192.0.2.11 port 56002 ssh2
+2024-03-15T06:11:52+03:00 webserver01 sshd[11804]: Failed password for invalid user root from 192.0.2.11 port 56002 ssh2
+2024-03-15T08:44:33+03:00 webserver01 sshd[12501]: Invalid user oracle from 192.0.2.33 port 57001 ssh2
+2024-03-15T08:44:34+03:00 webserver01 sshd[12502]: Failed password for invalid user oracle from 192.0.2.33 port 57001 ssh2
+2024-03-15T04:52:17+03:00 webserver01 sshd[11401]: Failed password for mharris from 198.51.100.77 port 53891 ssh2
+2024-03-15T05:10:33+03:00 webserver01 sshd[11634]: Failed password for mharris from 198.51.100.77 port 54001 ssh2
+2024-03-15T05:17:43+03:00 webserver01 sshd[11892]: Accepted password for mharris from 198.51.100.77 port 54231 ssh2
+2024-03-15T05:17:43+03:00 webserver01 sshd[11892]: pam_unix(sshd:session): session opened for user mharris by (uid=0)
+2024-03-15T08:15:22+03:00 webserver01 sshd[12841]: Accepted publickey for mharris from 10.0.0.5 port 44523 ssh2: RSA SHA256:xK9mP2qL
+2024-03-15T08:15:22+03:00 webserver01 sshd[12841]: pam_unix(sshd:session): session opened for user mharris by (uid=0)
+2024-03-15T09:47:05+03:00 webserver01 sshd[12841]: pam_unix(sshd:session): session closed for user mharris

@@ -1,0 +1,38 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name        = "tofik/log-forensics"
+version     = "1.0.0"
+description = "Investigate a simulated intrusion across SSH auth logs, cron logs, and nginx access logs. Find the attacker IP, compromised account, first compromise time (UTC), the exfiltrated file, and the persistence mechanism."
+keywords    = ["cybersecurity", "incident-response", "log-forensics", "ssh", "nginx"]
+
+[[task.authors]]
+name = "Tofik"
+
+[metadata]
+category            = "cybersecurity"
+difficulty          = "medium"
+expert_time_minutes = 15
+
+[verifier]
+timeout_sec      = 120.0
+environment_mode = "shared"
+collect          = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 600.0
+os                = "linux"
+mcp_servers       = []
+cpus = 1
+memory_mb = 2048
+
+[environment.env]
+
+[solution.env]

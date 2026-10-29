@@ -1,0 +1,7 @@
+{
+  "attacker_ip": "198.51.100.77",
+  "compromised_account": "mharris",
+  "first_compromise_time": "2024-03-15T02:17:43Z",
+  "exfiltrated_file": "/backups/client-data-2024-03.tar.gz",
+  "persistence_path": "/var/tmp/.sysupd.sh"
+}
